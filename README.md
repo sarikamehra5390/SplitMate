@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ SplitMate – Smart Expense Splitting Made Simple
+Sharing expenses shouldn’t feel like solving a math puzzle.
+SplitMate is here to make it seamless, fair, and fun.
 
-## Getting Started
+SplitMate is a web app that helps friends, roommates, and groups split shared expenses with ease — whether you're out for dinner, planning a trip, or managing rent. With clear tracking, real-time updates, and UPI-powered settlements, SplitMate ensures no one is left confused or unpaid.
 
-First, run the development server:
+💡 Idea
+SplitMate is built for anyone who's ever:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Gone out with friends and lost track of who paid what
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Found it awkward to remind people about what they owe
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Struggled to calculate fair splits and repayments
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Wanted a tool that works like Splitwise — but cleaner, simpler, and more localized (India-friendly)
 
-## Learn More
+SplitMate allows users to:
 
-To learn more about Next.js, take a look at the following resources:
+Create groups
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add shared expenses
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Track who owes whom
 
-## Deploy on Vercel
+Settle up with real UPI payment links (Paytm, PhonePe, etc.)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+⚙️ MVP Features
+🔹 Group Expense Tracking
+Split expenses equally (or unequally), track them per group, and automatically calculate balances.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔹 Real-Time Split Summary
+Get a clean breakdown like:
+Anjali owes Ravi ₹150,
+Ravi owes Priya ₹200 — no manual calculations needed.
+
+🔹 UPI Payment Integration
+Generate smart UPI links to settle dues instantly via Paytm, PhonePe, Google Pay, etc.
+
+🔹 Activity Feed
+See what was added or settled — just like a group chat, but for expenses.
+
+🛠️ Tech Stack
+Frontend
+Next.js (React Framework)
+
+Tailwind CSS
+
+TypeScript
+
+Vercel (Deployment)
+
+Figma (UI Design)
+
+Backend
+Node.js + Next.js API Routes
+
+MongoDB (via Mongoose)
+
+Firebase Authentication
+
+Payments & Utilities
+UPI Deep Links
+
+Axios (for API communication)
+
+Zustand (for state management – optional)
+
+🎯 Use Cases
+👥 Friends
+Split dinner bills, movie tickets, or weekend getaways with automatic balance updates.
+
+🏡 Roommates
+Track rent, groceries, and utilities over the month — and know who owes what, instantly.
+
+🎉 Event Organizers
+Planning a trip or party? Add expenses as they happen and let SplitMate handle the rest.
+
+🔒 Coming Soon
+OCR-based bill scanning 📸
+
+Push notifications for reminders 🔔
+
+Smart split suggestions using AI 🤖
+
+Charts and visualizations for monthly spending 📊
+
+SplitMate isn’t just an app. It’s your personal finance buddy for group expenses — built with Indian payments in mind and trust at heart.
+
+📌 Stay tuned as I build a smarter, simpler way to split.
